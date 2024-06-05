@@ -7,7 +7,7 @@ In microservices, requests' workflows with the complex dependency graphs pose ch
 As shown in the following figure, the performance monitor keeps capturing runtime trace data of requests from the microservice system. 
 QueueFlower then preprocesses the data, estimates the per-service queues, and optimizes the resource allocation via a queue balancing algorithm. 
 The resource allocator deploys the pod allocation into the microservice application.
-![System arch. of QueueFlower](./frame-v8.png)
+![System arch. of QueueFlower](./overview_8.pdf)
 
 
 ## Setup environment
