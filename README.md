@@ -25,7 +25,7 @@ We implement different modules of POBO in separate Python scripts as follows:
 - [Workload Generator](./wrk2LoadGenerator.py): We use the commonly used HTTP benchmarking tool wrk2~\cite{wrk2} as the workload generator to send four types of requests, i.e., login, search, reservation, and recommendation, to the application. We provide the functions for generating stationary and non-stationary workload. Wrk2 provides APIs for setting different thread numbers, the number of HTTP connections, the number of requests, the duration, and etc. You can change these parameters according to your cluster configuration.
 - [Utils](./utils.py): Helper functions for calculating intermediate results through the pipeline of QueueFlower.
 - [Experiment](./main.py): Simply run this bash to replicate our experiment. Certain parameters may need adjustment before execution to align with your environment. For example the endpoints of Jaeger and microservice, cpu and memory limit of pod.
-- [Prood](./The Proof of Throughput Optimality of QueueFlower.pdf): The Proof of Throughput Optimality of QueueFlower
+- [Prood](./Proof.pdf): The Proof of Throughput Optimality of QueueFlower
 
 ## Citation
 If you use QueueFlower in your research, please cite the paper as follows.
